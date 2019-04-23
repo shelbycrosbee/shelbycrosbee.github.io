@@ -1,2 +1,2 @@
 #Shelby's awesome resume
-creating super hand-coded resume for pizzaz
+creating super hand-coded resume with lots of pizzaz
