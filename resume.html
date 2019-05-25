@@ -7,12 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Shelby's Resume</title>
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <!-- Optional theme -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" </head>
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -23,92 +21,162 @@
 <body>
 
   <div class="container-fluid">
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Shelby Miller</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="resume.html">Resume <span class="sr-only">(current)</span></a></li>
-            <li class="dropdown">
-              <a href="projects.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                aria-expanded="false">Undergraduate Projects <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="./projects.html">Projects Home</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="http://lcphysx.lclark.edu/project/star-in-a-jar/">Star in a Jar</a></li>
-                <li><a href="http://lcphysx.lclark.edu/project/the-stirling-engine-revisited/">Stirling Engine</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Shelby Miller</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./resume.html">Resume</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Undergraduate Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./projects.html">Projects Home</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="http://lcphysx.lclark.edu/project/star-in-a-jar/">Star in a jar</a>
+              <a class="dropdown-item" href="http://lcphysx.lclark.edu/project/the-stirling-engine-revisited/">Stirling
+                Engine</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </nav>
   </div>
-  
+
   <section class="container">
-     
+
     <div class="row text-center">
-        <header class="text-center col-sm-12">
-            I am hardworking and motivated person with a passion for life and the outdoors. I am easy to get along with and enjoy helping and working with others. I am a motivated learner and can absorb information from a variety of subjects. I am conversationally fluent in French and Spanish.
-        </header>
-      <div class="card col-md-12 border-0">
-        <span class="border-0">
-          <h1><u>Education</u></h1>
-          <h4><u>Lewis & Clark College </u><small>Bachelor's of Arts in Physics, minor in Mathematics</small></br>
-          </h4>
-          <ul style="list-style: none">
-            <li>Graduated summa cumme laude with a 3.914 GPA</li>
-            <li>Member of the Phi Beta Cappa society</li>
-            <li></li>
-          </ul>
-          <h4><u>Montana Code School</u></h4>
-          <ul style="list-style: none">
-            <li>Learned basics of software development including:
-              JavaScript, React, MySQL...
-            </li>
-          </ul>
-        </span>
+      <header class="text-center col-sm-12" style="font-size: 18px" style="background-color: rgb(207, 204, 204)">
+        <br/>
+        I am hardworking and motivated person with a passion for life and the outdoors. I am easy to get along with and
+        enjoy helping and working with others. I am a motivated learner and can absorb information from a variety of
+        subjects. I am conversationally fluent in French and Spanish.
+      </header>
+
+    </div>
+    <br/>
+    <h3 class="text-center"><u>WORK EXPERIENCE</u></h3>
+    <dl class="row">
+      <dt class="col-sm-4"><u>Lone Mountain Sports</u> Big Sky, MT<br /><small>November 2017-April 2019</small> </dt>
+      <dd class="col-sm-8">Ski shop technician and at Lone Mountain Sports for two years. Repaired ski equipment and
+        rented ski equipment for customers</dd>
+
+      <dt class="col-sm-4"><u>Montana Whitewater</u> Gallatin Gateway, MT<br /><small>May 2016-August 2018</small> </dt>
+      <dd class="col-sm-8">
+        <p>Raft guide, often taking on role of trip leader, on the Gallatin river.</p>
+      </dd>
+
+      <dt class="col-sm-4"><u>Miller Lumber Company</u> Bend, OR<br /><small>September 2018-October 2018</small></dt>
+      <dd class="col-sm-8">Worked with contractors and suppliers selling building materials as well as general front
+        counter customer service.</dd>
+
+      <dt class="col-sm-4"><u>Symbolic and Quantitative Resource Center </u> Portland, OR <br />
+        <small>2012-2015</small></dt>
+      <dd class="col-sm-8">Tutor for Math and Physics
+        classes, ranging from 100 level to 400 level.</dd>
+
+      <dt class="col-sm-4"><u>College Outdoors </u>Portland, OR <br /><small>2012-2015</small></dt>
+      <dd class="col-sm-8">
+        Lead outdoor education trips for
+        college students of Lewis & Clark college.</dd>
+    </dl>
+    </dd>
+    </dl>
+<div class="row">
+  <br/>
+    <div class="col-sm-7">
+      <h3 class="text-center"><u>Education</u></h3>
+      <h5><u>Lewis & Clark College</u><em style="font-size: 15px">-Portland, OR 2011-2015</em><br/><small>Bachelor's of Arts in Physics, minor in Mathematics</small></br>
+      </h5>
+      <ul style="list-style: none">
+        <li>Graduated summa cumme laude with a 3.914 GPA</li>
+        <li>Member of the Phi Beta Cappa society</li>
+        <li></li>
+      </ul>
+      <h5><u>Montana Code School</u><em style="font-size: 15px">-Bozeman, MT 2019</em></h5>
+      <ul style="list-style: none">
+        <li>Learned basics of software development including:
+          JavaScript, React, MySQL...
+        </li>
+
+      </ul>
+      <h5><u>EuroCentres</u><em style="font-size: 15px">-Lausanne, Switzerland 2010-2011</em></h5>
+        <ul style="list-style: none"><li>Certificate of Advanced verbal and written skills in French</li></ul>
+      
+    </div>
+    <div class="card border-dark text-center mx-auto">
+      <div class="card-header" style="font-size: 18px; background-color: rgb(175, 174, 173)">
+        References
+      </div>
+      <div class="card-body j">
+       
+            <div class="dropdown">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                style="background-color: rgb(221, 220, 220); color: black">
+                <u>Jeff Clark</u> <br /> Lone Mountain Sports
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="tel:+14065702469"> (406)570-2469</a>
+              </div>
+            </div>
+          
+          <br />
+        
+            <div class="dropdown">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                style="background-color: rgb(221, 220, 220); color:black">
+                <u>Gavin Cooper</u> <br /> Montana Whitewater
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="tel:+19374709784"> (937)470-9784</a>
+              </div>
+            </div>
+          
+          <br />
+      
+            <div class="dropdown">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                style="background-color: rgb(221, 220, 220); color:black">
+                <u>Micheal Broide</u><br />Physics Professor
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="tel:+15037687581"> (503)768-7581</a><br />
+                <a class="dropdown-item" href="mailto:broide@lclark.edu"> broide@lclark.edu</a>
+              </div>
+            </div>
+         
+          <br />
+         
+            <div class="dropdown">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                style="background-color: rgb(221, 220, 220); color:black">
+                <u>Thom Lehman</u> <br /> College Outdoors
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="tel:+15037686287">503)768-6287</a><br />
+                <a class="dropdown-item" href="mailto:tml@lclark.edu">tml@lclark.edu</a>
+              </div>
+            </div>
+          
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h3><u>WORK EXPERIENCE</u></h3>
-        <div>
-          <ul>
-            <li>
-              <h4>Montana Whitewater</h4>
-              Raft guide, often taking on role of trip leader, on the Gallatin river.
-            </li>
-            <li>
-              <h4>Lone Mountain Sports:</h4>Ski shop technician and at Lone Mountain Sports for two years. Repaired ski
-              equipment and rented ski equipment for customers
-            </li>
-            <li>
-              <h4>Miller Lumber Company:</h4> Sales of building materials and customer service at Miller Lumber Company
-            </li>
-            <li>
-              <h4>Symbolic and Quantitative Resource Center, Lewis & Clark Collge:</h4> Tutor for Math and Physics
-              classes, ranging from 100 level to 400 level.
-            </li>
-            <li>
-              <h4>College Outdoors:</h4> Lead outdoor education trips for college students of Lewis & Clark college
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-sm-4">
+  </div>
+
+    </div>
+    <br/>
+    <div class="row justify-content-center">
+      <div class="col-sm-6">
         <h3><u>Workplace Qualifications</u></h3>
         <ul>
           <li>Customer Service</li>
@@ -120,7 +188,7 @@
           <li>A positive, go-getter attitude</li>
         </ul>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <h3><u>Technical Skills</u></h3>
         <ul>
           <li>Microsoft Excel</li>
@@ -129,38 +197,21 @@
           <li>Google Drive functionalities</li>
         </ul>
       </div>
-      <div class="col-sm-4">
-        <h3><u>References</u></h3>
-        <ul>
-          <li>Jeff Clark</li>
-          <ul><li>(406)570-2469</li></ul>
-          <li>Micheal Broide</li>
-          <ul><li>(503)768-7581</li>
-          <li>broide@lclark.edu</li></ul>
-          <li>Gavin Cooper</li>
-          <ul><li>(937)470-9784</li></ul>
-          <li>Thom Lehman</li>
-          <ul><li>(503)768-6287/li>
-          <li>tml@lclark.edu</li></ul>
-        </ul>
-      </div>
+    </div>
     </div>
 
   </section>
 
 
-  <!-- <footer class="footer">
-    <div class="container">
-      <p class="text-muted">Thanks for the visit!</p>
-    </div>
-  </footer> -->
-
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 </body>
