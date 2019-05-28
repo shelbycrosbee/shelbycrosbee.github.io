@@ -4,13 +4,17 @@
     .px-2 {
       padding-left: 50px !important;
       padding-right: 50px !important;
+      
     }
-
+    .px-3 {
+      padding-left: 70px !important;
+      padding-right: 70px !important;
+      
+    }
     body {
       font-family: "Work Sans"
     }
 
-    .smaller-img{
+
     
-      height: 370px;
-    }
+    
